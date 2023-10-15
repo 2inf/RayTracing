@@ -2,7 +2,6 @@ Followed:
 [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
 use `main > image.ppm` to redirect to an image file.
-<<<<<<< HEAD
 
 ## Notes
 
@@ -24,6 +23,16 @@ $$
 ((A+tb)-C)((A+tb)-C)=r^2
 $$
 
+$$
+t^2b\cdot b + 2tb\cdot (A-C) + (A-C) \cdot (A-C) = r^2
+$$
 
-=======
->>>>>>> origin/master
+ray-sphere intersection for the a/b/c values are:
+
+$$
+\begin{aligned}
+a &= b\cdot b \\
+b &= 2b \cdot (A - C) \\
+C &= (A-C) \cdot (A-C) - r^2
+\end{aligned}
+$$
