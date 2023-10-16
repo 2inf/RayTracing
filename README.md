@@ -33,6 +33,13 @@ $$
 \begin{aligned}
 a &= b\cdot b \\
 b &= 2b \cdot (A - C) \\
-C &= (A-C) \cdot (A-C) - r^2
+c &= (A-C) \cdot (A-C) - r^2
 \end{aligned}
 $$
+
+consider $b=2h$ then
+
+$$
+\frac{-b\pm\sqrt{b^2-4ac}}{2a}=\frac{-h\pm\sqrt{h^2-ac}}{a}
+$$
+
