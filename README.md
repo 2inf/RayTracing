@@ -3,11 +3,19 @@ Followed:
 
 use `main > image.ppm` to redirect to an image file.
 
-## Notes
+# Notes
 
-### rendered image setup
+## 3. The vec3 Class
+
+## 4. Rays, a Simple Camera, and Background
+
+### Sending Rays Into the Scene
+
+* rendered image setup
 
 `viewport_width`: don't use `aspect_ratio` because it is the ideal ratio and may not be the actual ratio between `image_width` and `image_height`
+
+## 5. Adding a Sphere
 
 ### ray-sphere intersection
 
@@ -43,3 +51,14 @@ $$
 \frac{-b\pm\sqrt{b^2-4ac}}{2a}=\frac{-h\pm\sqrt{h^2-ac}}{a}
 $$
 
+## 6. Surface Normals and Multiple Objects
+
+### Common Constants and Utility Functions
+
+throw common useful constants and future utility functions in `rtweekend.h`
+
+### An Interval Class
+
+implement an interval class to manage real-valued intervals with a minimum and a maximum.
+
+## 7. Moving Camera Code Into Its Own Class
