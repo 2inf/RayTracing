@@ -62,3 +62,8 @@ throw common useful constants and future utility functions in `rtweekend.h`
 implement an interval class to manage real-valued intervals with a minimum and a maximum.
 
 ## 7. Moving Camera Code Into Its Own Class
+
+consolidate our camera and scene-render code into `camera` class, responsible for two jobs:
+
+1. Construct and dispatch rays into the world
+2. Use the results of these rays to construct the rendered image.
